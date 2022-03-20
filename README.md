@@ -1,17 +1,13 @@
-# node-cli
+# Task Manager CLI
 
-## Commands
+## How to install
 
-**Base**
-- lunes
-    - version
-    - help
-    - install
-    - up
-    - down
-    - update
-    - show
-    - status
-    - info
-    - edit
-        - *args
+
+## How to use
+
+- You can write new task:
+  - `tasker add "my new task"`
+- You can done tasks:
+  - `tasker done <index_of_task>`
+- Finally you can list all tasks:
+  - `tasker list`

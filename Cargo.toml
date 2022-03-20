@@ -20,8 +20,6 @@ version = "1.0"
 
 
 [package.metadata.x]
-deploy = """
-cargo build --release --target=x86_64-apple-io
-cargo build --release --target=x86_64-pc-windows-gnu
-cargo build --release --target=x86_64-unknown-linux-gnu
-"""
+linux = "cargo build --release --target=x86_64-unknown-linux-gnu"
+windows = "cargo build --release --target=x86_64-pc-windows-gnu"
+apple = "cargo build --release --target=x86_64-apple-ios"

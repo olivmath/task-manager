@@ -1,9 +1,9 @@
 mod task;
-mod tutorial;
+mod cli;
 
 use std::{io::Error, io::ErrorKind, io::Result, path::PathBuf};
 use structopt::StructOpt;
-use tutorial::{Action::Add, Action::Done, Action::List, CommandLineArgs};
+use cli::{Action::Add, Action::Done, Action::List, CommandLineArgs};
 
 fn create_journal() -> Result<PathBuf> {
     use std::fs::File;

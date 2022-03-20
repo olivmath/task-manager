@@ -13,7 +13,12 @@
 	"settings": {},
 	
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": []
+	"extensions": [
+		"bungcip.better-toml",
+		"matklad.rust-analyzer",
+		"dustypomerleau.rust-syntax",
+		"serayuzgur.crates"
+	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],

@@ -1,7 +1,8 @@
 # Task Manager CLI
 
 ## How to install
-
+- download `exec` for your OS [here](https://github.com/olivmath/task-manager/releases)
+- add `exec` into your `$PATH`
 
 ## How to use
 

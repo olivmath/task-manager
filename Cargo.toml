@@ -19,7 +19,6 @@ features = ["derive"]
 version = "1.0"
 
 
-[package.metadata.x]
-linux = "cargo build --release --target=x86_64-unknown-linux-gnu"
-windows = "cargo build --release --target=x86_64-pc-windows-gnu"
-apple = "cargo build --release --target=x86_64-apple-ios"
+# linux = "cargo build --release --target=x86_64-unknown-linux-gnu"
+# windows = "cargo build --release --target=x86_64-pc-windows-gnu"
+

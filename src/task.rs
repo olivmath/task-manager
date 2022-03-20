@@ -136,7 +136,7 @@ pub fn list(journal: PathBuf) -> Result<()> {
         for (position, task) in tasks.iter().enumerate() {
             println!(
                 "\n---\nIndex: {}\nTask: {:#?}\nCreated: {}\n---\n",
-                position, task.text, task.created
+                position + 1, task.text, task.created
             );
         }
     };

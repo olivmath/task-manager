@@ -1,8 +1,22 @@
 # Task Manager CLI
 
-## How to install
-- download `exec` for your OS [here](https://github.com/olivmath/task-manager/releases)
-- add `exec` into your `$PATH`
+## How to Install
+
+### Linux
+1. download the `tasker-linux`
+2. `mv tasker-linux /usr/bin/tasker`
+3. `chmod +x /usr/bin/taker`
+
+### Windows
+1. download the `tasker-windows.exe`
+2. `rename tasker-windowns.exe tasker.exe`
+3. move `tasker.exe` to `C:\Windows\tasker.exe`
+4. open start menu:
+    - search for **edit environment variables** and open
+    - click in **environment variables** > **system variables** > **new**
+    - **variable name:** `tasker`
+    - **variable value:** `C:\Windows\tasker.exe`
+5. **restart the command prompt**
 
 ## How to use
 

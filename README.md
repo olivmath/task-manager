@@ -1,4 +1,4 @@
-# Task Manager CLI
+# 🕹 Task Manager CLI
 
 ## How to Install
 
